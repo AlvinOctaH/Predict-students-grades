@@ -1,9 +1,9 @@
 # RNN PyTorch
-
+[![Kaggle](https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/kaggle_logo.png)](https://www.kaggle.com/datasets/sankha1998/student-semester-result/data)
 ----------------
 ## Table of contents
 
-- [1. Introduction to RNN and PyTorch](#What-is-Recurrent-Neural-Network-(RNN)?)
+- [Introduction to RNN and PyTorch](#What-is-Recurrent-Neural-Network-(RNN)?)
 
 ----------
 
@@ -20,7 +20,7 @@ A recurrent neural network (RNN) is a type of artificial neural network that is 
 
 ## What is PyTorch?
 <p align="justify">
-PyTorch is an open source machine learning (ML) framework based on the Python programming language and the Torch library. Torch is an open source ML library used for creating deep neural networks and is written in the Lua scripting language. It's one of the preferred platforms for deep learning research. The framework is built to speed up the process between research prototyping and deployment. 
+PyTorch is an open-source machine learning (ML) framework based on the Python programming language and the Torch library. Torch is an open-source ML library used for creating deep neural networks and is written in the Lua scripting language. It's one of the preferred platforms for deep learning research. The framework is built to speed up the process between research prototyping and deployment. 
 </p>
 
 **Source :** [techtarget.com](https://www.techtarget.com/searchenterpriseai/definition/PyTorch), [pytorch.org](https://pytorch.org/).

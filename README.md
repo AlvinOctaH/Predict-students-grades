@@ -4,8 +4,6 @@
 ## Table of contents
 
 - [1. Introduction to Recurrent Neural Network (RNN)](#What-is-Recurrent-Neural-Network-(RNN)?)
-- [2. Build Process](#2-Build-Process)
-- [3. Results](#3-Results)
 
 ----------
 

@@ -4,6 +4,7 @@
 ## Table of contents
 
 - [Introduction to RNN and PyTorch](#What-is-Recurrent-Neural-Network-(RNN)?)
+- 
 
 ----------
 
@@ -26,3 +27,6 @@ PyTorch is an open-source machine learning (ML) framework based on the Python pr
 **Source :** [techtarget.com](https://www.techtarget.com/searchenterpriseai/definition/PyTorch), [pytorch.org](https://pytorch.org/).
 
 ## Dataset 
+<p align="justify">
+This repository uses a dataset of semester results of engineering students from a university. This data was obtained from Kaggle and titled "<a href="https://www.kaggle.com/datasets/sankha1998/student-semester-result/data">Engineering Student Semester Results</a>". The dataset contains information about students' performance, including their roll numbers (converted to random numbers for privacy), college code, subjects taken, and the semester CGPA (Cumulative Grade Point Average) achieved. It represents a real-world scenario where predicting a student's future academic performance can be challenging. According to the dataset provider, predicting the next semester's CGPA is a complex task. However, analyzing a student's past performance can provide valuable insights for making such predictions.
+</p>

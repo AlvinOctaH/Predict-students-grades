@@ -1,5 +1,5 @@
 # RNN PyTorch
-[![Kaggle](https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/kaggle_logo.png)](https://www.kaggle.com/datasets/sankha1998/student-semester-result/data)
+
 ----------------
 ## Table of contents
 

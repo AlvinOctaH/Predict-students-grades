@@ -8,7 +8,7 @@
   - What is PyTorch?
 - [Preparing the dataset](#Preparing-the-dataset)
   - Heatmap
-  - Preprocessing Data
+  - Data Preprocessing
 
 ----------
 ## Introduction to RNN and PyTorch
@@ -46,5 +46,7 @@ The first step of preparing the dataset is to look for correlations between vari
 In this repository I use RNN to predict semester 5 grades. As can be seen from the heatmap, only semester 1 to 4 grade variables are correlated with semester 5 grades, so those grades will be the input features for RNN.
 </p>
 
-### 2. Preprocessing Data
-
+### 2. Data Preprocessing
+<p align="justify">
+Data preprocessing in the case of this dataset is done by removing variables or columns from the dataset that are not needed, then cleaning the data from missing or NaN values. 
+</p>

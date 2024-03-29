@@ -14,7 +14,7 @@ A recurrent neural network (RNN) is a type of artificial neural network that is 
 </p>
 
 <p align="center">
-    <img width="800" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Network (RNN">
+    <img width="600" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Network (RNN">
 </p>
 
 **Source :** [geeksforgeeks.org](https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/), [amazon.com](https://aws.amazon.com/what-is/recurrent-neural-network/#:~:text=A%20recurrent%20neural%20network%20(RNN,complex%20semantics%20and%20syntax%20rules.)).
@@ -32,8 +32,10 @@ This repository uses a dataset of semester results of engineering students from 
 </p>
 
 ### Preprocessing Data
+<p align="justify">
 Preprocessing Data is used to convert data into a format that is easier and more effective to process in the RNN. The first step of preprocessing the data is to look for correlations between variables using heatmaps to take important variables that can be used as RNN input. The implementation of the heatmap is shown in the following figure:
+</p>
 <p align="center">
-    <img width="800" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Network (RNN">
+    <img width="600" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Network (RNN">
 </p>
 

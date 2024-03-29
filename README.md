@@ -4,7 +4,10 @@
 ## Table of contents
 
 - [Introduction to RNN and PyTorch](#Introduction-to-RNN-and-PyTorch)
+  - [What is Recurrent Neural Network (RNN)?](#What-is-Recurrent-Neural-Network-(RNN)?)
+  - [What is PyTorch?](#What-is-PyTorch?)
 - [Preparing the dataset](#Preparing-the-dataset)
+  - [Heatmap](#1.-Heatmap)
 
 ----------
 ## Introduction to RNN and PyTorch
@@ -31,11 +34,12 @@ PyTorch is an open-source machine learning (ML) framework based on the Python pr
 This repository uses a dataset of semester results of engineering students from a university. This data was obtained from Kaggle and titled "<a href="https://www.kaggle.com/datasets/sankha1998/student-semester-result/data">Semester Result of Technical Students</a>". The dataset contains information about students' performance, including their roll numbers (converted to random numbers for privacy), college code, subjects taken, and the semester CGPA (Cumulative Grade Point Average) achieved. It represents a real-world scenario where predicting a student's future academic performance can be challenging. According to the dataset provider, predicting the next semester's CGPA is a complex task. However, analyzing a student's past performance can provide valuable insights for making such predictions.
 </p>
 
-### Preprocessing Data
+### 1. Heatmap
 <p align="justify">
-Preprocessing Data is used to convert data into a format that is easier and more effective to process in the RNN. The first step of preprocessing the data is to look for correlations between variables using heatmaps to take important variables that can be used as RNN input. The implementation of the heatmap is shown in the following figure:
+The first step of preparing the dataset is to look for correlations between variables using heatmaps to take important variables that can be used as RNN input. Heatmaps are effective for visualizing large datasets by representing data values with colors. This allows data scientists and software engineers to quickly identify patterns, trends, and variations in the data. The implementation of the heatmap is shown in the following figure:
 </p>
 <p align="center">
-    <img width="600" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Network (RNN">
+    <img width="600" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/Heatmap_RNN.png" alt="Heatmap">
 </p>
+
 

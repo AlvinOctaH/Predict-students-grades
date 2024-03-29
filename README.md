@@ -9,6 +9,7 @@
 - [Preparing the dataset](#Preparing-the-dataset)
   - Heatmap
   - Data Preprocessing
+- [RNN Structure](#RNN-Structure)
 
 ----------
 ## Introduction to RNN and PyTorch
@@ -48,5 +49,10 @@ In this repository I use RNN to predict semester 5 grades. As can be seen from t
 
 ### 2. Data Preprocessing
 <p align="justify">
-Data preprocessing in the case of this dataset is done by removing variables or columns from the dataset that are not needed, then cleaning the data from missing or NaN values. 
+Data preprocessing in the case of this dataset is done by removing variables or columns from the dataset that are not needed, then cleaning the data from missing or NaN values. The results of data preprocessing get 169 rows of clean data, the results can be seen in the following figure:
 </p>
+<p align="center">
+    <img width="300" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/datacleaned.png" alt="Data Preprocessing">
+</p>
+
+## RNN Structure

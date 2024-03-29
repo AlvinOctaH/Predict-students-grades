@@ -4,10 +4,10 @@
 ## Table of contents
 
 - [Introduction to RNN and PyTorch](#Introduction-to-RNN-and-PyTorch)
-  - [What is Recurrent Neural Network (RNN)?](##What-is-Recurrent-Neural-Network-(RNN)?)
-  - [What is PyTorch?](#What-is-PyTorch?)
+  - What is Recurrent Neural Network (RNN)?
+  - What is PyTorch?
 - [Preparing the dataset](#Preparing-the-dataset)
-  - [Heatmap](#1.-Heatmap)
+  - Heatmap
 
 ----------
 ## Introduction to RNN and PyTorch

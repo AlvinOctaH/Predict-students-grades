@@ -8,6 +8,7 @@
   - What is PyTorch?
 - [Preparing the dataset](#Preparing-the-dataset)
   - Heatmap
+  - Preprocessing Data
 
 ----------
 ## Introduction to RNN and PyTorch
@@ -41,5 +42,9 @@ The first step of preparing the dataset is to look for correlations between vari
 <p align="center">
     <img width="600" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/Heatmap_RNN.png" alt="Heatmap">
 </p>
+<p align="justify">
+In this repository I use RNN to predict semester 5 grades. As can be seen from the heatmap, only semester 1 to 4 grade variables are correlated with semester 5 grades, so those grades will be the input features for RNN.
+</p>
 
+### 2. Preprocessing Data
 

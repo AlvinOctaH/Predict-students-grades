@@ -69,14 +69,14 @@ Finally, I would save the predicted scores and the testing data to Excel files f
 
 ## Result
 <p align="justify">
-The test loss of 0.2261, as calculated using the MSE loss function, indicates the accuracy of the RNN model in predicting exam scores based on the scores of four previous exams. In this case, the test loss suggests that the RNN model is reasonably accurate, as the average squared difference between the predicted and actual exam scores is relatively low.
+The test loss of 0.2261 indicates the accuracy of the trained RNN model in predicting GPA scores based on the scores of four previous exams. In this case, the test loss is a measure of the difference between the predicted GPA scores and the actual GPA scores in the test set, calculated using the mean squared error (MSE) loss function.
 </p>
 <p align="justify">
-However, it is important to note that the MSE loss function can be sensitive to outliers and large errors, as squaring the differences between the predicted and actual values can amplify the impact of these errors. Therefore, the test loss of 0.2261 should be interpreted in the context of the specific problem and dataset.
+The MSE loss function measures the average squared difference between the predicted and actual GPA scores and is a common metric for evaluating the accuracy of regression models. In this case, a test loss of 0.2261 indicates that the average squared difference between the predicted and actual GPA scores in the test set is 0.2261.
 </p>
 <p align="justify">
-For example, if the range of the exam scores is from 0 to 100, a test loss of 0.2261 may still result in significant errors in the predicted exam scores. Therefore, it is important to evaluate the performance of the model using other metrics, such as the mean absolute error or the R-squared value, in addition to the MSE loss function.
+Overall, the test loss of 0.2261, as calculated using the MSE loss function, suggests that the RNN model is a promising tool for predicting GPA scores based on the scores of four previous exams. However, further refinement and customization of the model may be necessary to improve its accuracy and generalizability. It is important to evaluate the performance of the model using other metrics, such as the mean absolute error or the R-squared value, to get a more complete picture of the model's accuracy. Additionally, the test loss should be interpreted in the context of the specific problem and dataset, as a high test loss may still result in significant errors in the predicted GPA scores. The result of the test loss can be seen in the following figure:
 </p>
-<p align="justify">
-Overall, the test loss of 0.2261, as calculated using the MSE loss function, suggests that the RNN model is a promising tool for predicting exam scores based on the scores of four previous exams. However, further refinement and customization of the model may be necessary to improve its accuracy and generalizability.
+<p align="center">
+    <img width="200" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/result_MSE.png" alt="result_training_test">
 </p>

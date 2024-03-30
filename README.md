@@ -10,6 +10,7 @@
   - Heatmap
   - Data Preprocessing
 - [RNN Structure](#RNN-Structure)
+- [Result](#Result)
 
 ----------
 ## Introduction to RNN and PyTorch
@@ -56,3 +57,26 @@ Data preprocessing in the case of this dataset is done by removing variables or 
 </p>
 
 ## RNN Structure
+<p align="justify">
+To build an RNN structure for predicting exam scores based on the scores of four previous exams, I would start by loading the data from an Excel file and preprocessing it by converting it into PyTorch tensors and splitting it into train and test sets. Next, I would define the RNN model architecture with the following parameters: input size of 4 (number of features), hidden size of 64 (size of the hidden state in the RNN), output size of 1 (single output value), number of layers of 3 (number of recurrent layers), and dropout rate of 0.2 (dropout rate for regularization). The RNN model architecture would include a recurrent layer that takes in the input features and outputs a hidden state, which is then passed through a fully connected layer to output a single value. The RNN model would be initialized with random weights, and the hidden state would be initialized with zeros.
+</p>
+<p align="justify">
+Next, I would define the loss function and optimizer for training the RNN model. I would use the mean squared error (MSE) loss function and the Adam optimizer with a learning rate of 0.001 and weight decay for regularization. I would then train the RNN model for 1000 epochs, updating the model parameters using backpropagation and printing the training loss for every 100 epochs. I would also evaluate the RNN model on the test set and print the test loss.
+</p>
+<p align="justify">
+Finally, I would save the predicted scores and the testing data to Excel files for further analysis. The RNN model can be customized by adjusting the hyperparameters and input features as needed for other regression tasks involving sequential data. For example, I could increase the number of recurrent layers or the hidden size to capture more complex patterns in the data, or I could add additional input features such as the student's attendance, grades, and behavior. I could also adjust the learning rate, dropout rate, or weight decay to improve the model's performance.
+</p>
+
+## Result
+<p align="justify">
+The test loss of 0.2261, as calculated using the MSE loss function, indicates the accuracy of the RNN model in predicting exam scores based on the scores of four previous exams. In this case, the test loss suggests that the RNN model is reasonably accurate, as the average squared difference between the predicted and actual exam scores is relatively low.
+</p>
+<p align="justify">
+However, it is important to note that the MSE loss function can be sensitive to outliers and large errors, as squaring the differences between the predicted and actual values can amplify the impact of these errors. Therefore, the test loss of 0.2261 should be interpreted in the context of the specific problem and dataset.
+</p>
+<p align="justify">
+For example, if the range of the exam scores is from 0 to 100, a test loss of 0.2261 may still result in significant errors in the predicted exam scores. Therefore, it is important to evaluate the performance of the model using other metrics, such as the mean absolute error or the R-squared value, in addition to the MSE loss function.
+</p>
+<p align="justify">
+Overall, the test loss of 0.2261, as calculated using the MSE loss function, suggests that the RNN model is a promising tool for predicting exam scores based on the scores of four previous exams. However, further refinement and customization of the model may be necessary to improve its accuracy and generalizability.
+</p>

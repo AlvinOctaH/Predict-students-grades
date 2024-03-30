@@ -1,4 +1,5 @@
-# RNN PyTorch
+# Deep RNN PyTorch
+This repository contains an implementation of a Deep Recurrent Neural Network (RNN) using PyTorch for predicting students' grades in their 5th semester based on their previous academic grades from the 1st to 4th semesters.
 
 ----------------
 ## Table of contents
@@ -45,12 +46,12 @@ The first step of preparing the dataset is to look for correlations between vari
     <img width="600" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/Heatmap_RNN.png" alt="Heatmap">
 </p>
 <p align="justify">
-In this repository I use RNN to predict semester 5 grades. As can be seen from the heatmap, only semester 1 to 4 grade variables are correlated with semester 5 grades, so those grades will be the input features for RNN.
+In this repository, I use RNN to predict semester 5 grades. As can be seen from the heatmap, only academic grades from the 1st to 4th semesters variables are correlated with semester 5 grades, so those grades will be the input features for RNN.
 </p>
 
 ### 2. Data Preprocessing
 <p align="justify">
-Data preprocessing in the case of this dataset is done by removing variables or columns from the dataset that are not needed, then cleaning the data from missing or NaN values. The results of data preprocessing get 169 rows of clean data, the results can be seen in the following figure:
+Data preprocessing in the case of this dataset is done by removing variables or columns from the dataset that are not needed and then cleaning the data from missing or NaN values. The results of data preprocessing get 169 rows of clean data, the results can be seen in the following figure:
 </p>
 <p align="center">
     <img width="300" src="https://github.com/AlvinOctaH/Deeplearning-RNN-PyTorch/blob/main/assets/datacleaned.png" alt="Data Preprocessing">
@@ -58,13 +59,13 @@ Data preprocessing in the case of this dataset is done by removing variables or 
 
 ## RNN Structure
 <p align="justify">
-To build an RNN structure for predicting exam scores based on the scores of four previous exams, I would start by loading the data from an Excel file and preprocessing it by converting it into PyTorch tensors and splitting it into train and test sets. Next, I would define the RNN model architecture with the following parameters: input size of 4 (number of features), hidden size of 64 (size of the hidden state in the RNN), output size of 1 (single output value), number of layers of 3 (number of recurrent layers), and dropout rate of 0.2 (dropout rate for regularization). The RNN model architecture would include a recurrent layer that takes in the input features and outputs a hidden state, which is then passed through a fully connected layer to output a single value. The RNN model would be initialized with random weights, and the hidden state would be initialized with zeros.
+To build an RNN structure for predicting exam scores based on the scores of four previous exams, I would start by loading the data from an Excel file and preprocessing it by converting it into PyTorch tensors and splitting it into train and test sets. Next, I would define the RNN model architecture with the following parameters: input size of 4 (number of features), hidden size of 64 (size of the hidden state in the RNN), output size of 1 (single output value), number of layers of 3 (number of recurrent layers), and dropout rate of 0.2 (dropout rate for regularization). The RNN model architecture would include a recurrent layer that takes in the input features and outputs a hidden state, then passes through a fully connected layer to output a single value. The RNN model would be initialized with random weights, and the hidden state would be initialized with zeros.
 </p>
 <p align="justify">
 Next, I would define the loss function and optimizer for training the RNN model. I would use the mean squared error (MSE) loss function and the Adam optimizer with a learning rate of 0.001 and weight decay for regularization. I would then train the RNN model for 1000 epochs, updating the model parameters using backpropagation and printing the training loss for every 100 epochs. I would also evaluate the RNN model on the test set and print the test loss.
 </p>
 <p align="justify">
-Finally, I would save the predicted scores and the testing data to Excel files for further analysis. The RNN model can be customized by adjusting the hyperparameters and input features as needed for other regression tasks involving sequential data. For example, I could increase the number of recurrent layers or the hidden size to capture more complex patterns in the data, or I could add additional input features such as the student's attendance, grades, and behavior. I could also adjust the learning rate, dropout rate, or weight decay to improve the model's performance.
+Finally, I would save the predicted scores and the testing data to Excel files for further analysis. The RNN model can be customized by adjusting the hyperparameters and input features for other sequential data regression tasks. For example, I could increase the number of recurrent layers or the hidden size to capture more complex patterns in the data, or I could add additional input features such as the student's attendance, grades, and behavior. I could also adjust the learning rate, dropout rate, or weight decay to improve the model's performance.
 </p>
 
 ## Result

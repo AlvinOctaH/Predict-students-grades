@@ -1,5 +1,7 @@
 # Deep RNN PyTorch
+<p align="justify">
 This repository contains an implementation of a Deep Recurrent Neural Network (RNN) using PyTorch for predicting students' grades in their 5th semester based on their previous academic grades from the 1st to 4th semesters.
+</p>
 
 ----------------
 ## Table of contents
